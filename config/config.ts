@@ -39,9 +39,24 @@ export default defineConfig({
     {
       path: '/welcome',
       name: '首页',
-      icon: 'smile',
       component: './Welcome',
     },
+    {
+      path: '/button',
+      name: 'Button 按钮',
+      component: './Welcome',
+    },
+    {
+      path: '/icon',
+      name: 'Icon 图标',
+      component: './Welcome',
+    },
+    {
+      path: '/typography',
+      name: 'Typography 排版',
+      component: './Welcome',
+    },
+
     {
       path: '/',
       redirect: '/welcome',
