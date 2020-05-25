@@ -15,13 +15,7 @@ export default defineConfig({
     name: 'Ant Design Pro',
     locale: true,
   },
-  locale: {
-    // default zh-CN
-    default: 'zh-CN',
-    // default true, when it is true, will use `navigator.language` overwrite default
-    antd: true,
-    baseNavigator: true,
-  },
+  locale: false,
   dynamicImport: {
     loading: '@/components/PageLoading/index',
   },
@@ -44,30 +38,9 @@ export default defineConfig({
 
     {
       path: '/welcome',
-      name: 'welcome',
+      name: '首页',
       icon: 'smile',
       component: './Welcome',
-    },
-    {
-      path: '/admin',
-      name: 'admin',
-      icon: 'crown',
-      access: 'canAdmin',
-      component: './Admin',
-      routes: [
-        {
-          path: '/admin/sub-page',
-          name: 'sub-page',
-          icon: 'smile',
-          component: './Welcome',
-        },
-      ],
-    },
-    {
-      name: 'list.table-list',
-      icon: 'table',
-      path: '/list',
-      component: './ListTableList',
     },
     {
       path: '/',
