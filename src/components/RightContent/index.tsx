@@ -1,5 +1,4 @@
-import { Tooltip, Tag, Space } from 'antd';
-import { QuestionCircleOutlined } from '@ant-design/icons';
+import { Tag, Space } from 'antd';
 import React from 'react';
 import { useModel } from 'umi';
 import Avatar from './AvatarDropdown';
@@ -52,16 +51,6 @@ const GlobalHeaderRight: React.FC<{}> = () => {
         //   //console.log('input', value);
         // }}
       />
-      <Tooltip title="使用文档">
-        <span
-          className={styles.action}
-          onClick={() => {
-            window.location.href = 'https://pro.ant.design/docs/getting-started';
-          }}
-        >
-          <QuestionCircleOutlined />
-        </span>
-      </Tooltip>
       <Avatar />
       {REACT_APP_ENV && (
         <span>

@@ -44,7 +44,7 @@ export default defineConfig({
     {
       path: '/button',
       name: 'Button 按钮',
-      component: './Welcome',
+      component: './button',
     },
     {
       path: '/icon',
@@ -54,7 +54,7 @@ export default defineConfig({
     {
       path: '/typography',
       name: 'Typography 排版',
-      component: './Welcome',
+      component: './typography',
     },
 
     {
