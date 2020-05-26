@@ -56,6 +56,26 @@ export default defineConfig({
       name: 'Typography 排版',
       component: './typography',
     },
+    {
+      path: '/divider',
+      name: 'Divider 分割线',
+      component: './divider',
+    },
+    {
+      path: '/grid',
+      name: 'Grid 栅格',
+      component: './grid',
+    },
+    {
+      path: '/layout',
+      name: 'Layout 布局',
+      component: './Welcome',
+    },
+    {
+      path: '/space',
+      name: 'Space 间距',
+      component: './space',
+    },
 
     {
       path: '/',
