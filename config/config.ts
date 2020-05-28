@@ -78,6 +78,22 @@ export default defineConfig({
     },
 
     {
+      path: '/affix',
+      name: 'Affix 固钉',
+      component: './affix',
+    },
+    {
+      path: '/breadcrumb',
+      name: 'Breadcrumb 面包屑',
+      component: './breadcrumb',
+    },
+    {
+      path: '/dropdown',
+      name: 'Dropdown 下拉菜单',
+      component: './dropdown',
+    },
+
+    {
       path: '/',
       redirect: '/welcome',
     },
