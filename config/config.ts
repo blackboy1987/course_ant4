@@ -94,6 +94,38 @@ export default defineConfig({
     },
 
     {
+      path: '/menu',
+      name: 'Menu 导航菜单',
+      component: './menu',
+    },
+    {
+      path: '/pagination',
+      name: 'Pagination 分页',
+      component: './pagination',
+    },
+    {
+      path: '/pageHeader',
+      name: 'PageHeader 页头',
+      component: './pageHeader',
+    },
+    {
+      path: '/steps',
+      name: 'Steps 步骤条',
+      component: './steps',
+    },
+
+    {
+      path: '/autoComplete',
+      name: 'AutoComplete 自动完成',
+      component: './autoComplete',
+    },
+    {
+      path: '/checkbox',
+      name: 'checkbox 多选框',
+      component: './checkbox',
+    },
+
+    {
       path: '/',
       redirect: '/welcome',
     },
